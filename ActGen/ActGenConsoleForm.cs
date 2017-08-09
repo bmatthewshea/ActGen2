@@ -57,7 +57,7 @@ namespace ActGen
         private void button_console_save_Click(object sender, EventArgs e)
         {
             FileOperations FileOPs = new FileOperations();
-            FileOPs.SaveFile("myCodes.txt", textBoxConsole.Text);
+            FileOPs.SaveFile("ActGenCodes.txt", textBoxConsole.Text);
         }
 
         public void button_clear_console_Click(object sender, EventArgs e)

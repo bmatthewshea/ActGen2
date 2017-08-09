@@ -9,7 +9,7 @@ namespace ActGen
 {
     public sealed class FormToggle
     {
-        // Singleton for form calls on console form (Note: Do not manually create a 'new' instance - let this dfo it. ( .Show() or .Hide() )
+        // Singleton for form calls on console form (Note: Do not manually create a 'new' instance - let this do it. ( .Show() or .Hide() )
         // http://csharpindepth.com/Articles/General/Singleton.aspx
         // http://stackoverflow.com/a/3005761/503621 &&  http://yoda.arachsys.com/csharp/singleton.html
         //
@@ -20,7 +20,7 @@ namespace ActGen
         {
         }
 
-        // console form
+        // console form - work out rest later - make sure to capture close X-button "_FormClosing" and e.cancel - hide form
         public static ActGenConsoleForm Console
         {
             get

@@ -125,8 +125,8 @@ namespace ActGen
 
         private void button_exit_Click(object sender, EventArgs e)
         {
+            this.Close();    //only exits form
             Application.Exit();
-            //this.Close();    //only exits form
         }
 
         private void button_console_toggle_Click(object sender, EventArgs e)
@@ -161,7 +161,7 @@ namespace ActGen
             this.checkBox_avoid_characters.Checked                 = Properties.Settings.Default.avoid_characters;
             this.textBox_remove_additional_custom_characters.Text  = Properties.Settings.Default.remove_additional_custom_characters;
             this.textBox_include_additional_custom_characters.Text = Properties.Settings.Default.include_additional_custom_characters;
-            this.checkBox_save_on_exit.Checked                     = Properties.Settings.Default.save_on_exit;
+            //this.checkBox_save_on_exit.Checked                     = Properties.Settings.Default.save_on_exit;
             this.checkBoxRNGCrypto.Checked                         = Properties.Settings.Default.rngcrypto;
         }
 
@@ -394,7 +394,7 @@ namespace ActGen
                 Properties.Settings.Default.avoid_characters = this.checkBox_avoid_characters.Checked;
                 Properties.Settings.Default.remove_additional_custom_characters = this.textBox_remove_additional_custom_characters.Text;
                 Properties.Settings.Default.include_additional_custom_characters = this.textBox_include_additional_custom_characters.Text;
-                Properties.Settings.Default.save_on_exit = this.checkBox_save_on_exit.Checked;
+                Properties.Settings.Default.save_on_exit = false;
                 Properties.Settings.Default.rngcrypto = this.checkBoxRNGCrypto.Checked;
                 // Save it all if save on exit is true
                 Properties.Settings.Default.Save();
