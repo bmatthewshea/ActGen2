@@ -26,6 +26,6 @@ ActGen - A Password and Random Code Generator ![GitHub Logo](../master/images/lo
 
 ## License
 
-Github Changelog Generator is released under the [GNU GPLv3](https://opensource.org/licenses/GPL-3.0).
+ActGen is released under the [GNU GPLv3](https://opensource.org/licenses/GPL-3.0).
 
 *Feel free to Fork!*
