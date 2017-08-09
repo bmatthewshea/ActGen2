@@ -3,8 +3,8 @@ ActGen - A Password and Random Code Generator ![GitHub Logo](../master/images/lo
 ==================
 
   - [Installation](#installation)
-  - [Features(#features)
-  - [TO DO(#to-do)
+  - [Features](#features)
+  - [TO DO](#to-do)
   - [License](#license)
 
 
