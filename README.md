@@ -1,5 +1,5 @@
 
-ActGen - A Password and Random Code Generator ![GitHub Logo](../master/images/logo.jpg)
+ActGen - A Password and Random Code Generator 
 ==================
 
   - [Installation](#installation)
@@ -29,3 +29,5 @@ ActGen - A Password and Random Code Generator ![GitHub Logo](../master/images/lo
 ActGen is released under the [GNU GPLv3](https://opensource.org/licenses/GPL-3.0).
 
 *Feel free to Fork!*
+
+<img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" width="200">
