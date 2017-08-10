@@ -28,5 +28,6 @@ ActGen - A Password and Random Code Generator
 
 ActGen is released under the [GNU GPLv3](https://opensource.org/licenses/GPL-3.0).
 
+<p><img src="http://i.imgur.com/u1G0wvD.png" width="475"></p>
 
 <p><img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" width="175"></p>
