@@ -215,46 +215,36 @@ namespace ActGen
             bool canConvertA = int.TryParse(textBox_amount_to_generate.Text, out iAmountOfCodes);
             bool canConvertU = int.TryParse(textBox_chars_to_make.Text, out iCharsPerCode);
 
-            if ((textBox_amount_to_generate.Text == null) || (canConvertA != true))
+            //Check amount to generate
+            if ((textBox_amount_to_generate.Text == null) || (canConvertA != true) || (iAmountOfCodes >= 100001))
             {
-                //MessageBox.Show("Amount to generate blank or not a number.");
-                textBox_amount_to_generate.Focus();
-                //textBox_amount_to_generate.ForeColor = Color.Red;
-                textBox_amount_to_generate.Select(0, textBox_amount_to_generate.Text.Length);
-                return;
-            }
-
-            if ((textBox_chars_to_make.Text == null) || (canConvertU != true))
-            {
-                //MessageBox.Show("Amount of characters blank or not a number.");
-                textBox_chars_to_make.Focus();
-                textBox_chars_to_make.Select(0, textBox_chars_to_make.Text.Length);
-                return;
-            }
-
-            if (iAmountOfCodes >= 1000001)
-            {
-                //MessageBox.Show(" Number cannot be over max..\n or update the source code ;-)");
+                textBox_amount_to_generate.BackColor = Color.Red;
                 textBox_amount_to_generate.Focus();
                 textBox_amount_to_generate.Select(0, textBox_amount_to_generate.Text.Length);
+                System.Threading.Thread.Sleep(500);
+                textBox_amount_to_generate.BackColor = Color.Empty;
                 return;
             }
-            if (iCharsPerCode >= 65)
+            //Check characters per code
+            if ((textBox_chars_to_make.Text == null) || (canConvertU != true) || (iCharsPerCode >= 65))
             {
-                //MessageBox.Show(" Number cannot be over max..\n or update the source code ;-)");
+                textBox_chars_to_make.BackColor = Color.Red;
                 textBox_chars_to_make.Focus();
                 textBox_chars_to_make.Select(0, textBox_chars_to_make.Text.Length);
+                System.Threading.Thread.Sleep(500);
+                textBox_chars_to_make.BackColor = Color.Empty;
                 return;
             }
-
-            //Check dashes toggle and set
-            if ((bDashes) && (iDashSpacing != 0))
+            //Check dashes toggle
+            if ((bDashes) && (canConvertD != true))
             {
-                //MessageBox.Show("iDashSpacing = " + iDashSpacing + "\n iCharsPerCode = " + iCharsPerCode);
-                if (iDashSpacing >= iCharsPerCode)
+                if ((iDashSpacing >= iCharsPerCode) || (iDashSpacing == 0))
                 {
+                    textBox_characters_between_dashes.BackColor = Color.Red;
                     textBox_characters_between_dashes.Focus();
                     textBox_characters_between_dashes.Select(0, textBox_chars_to_make.Text.Length);
+                    System.Threading.Thread.Sleep(500);
+                    textBox_characters_between_dashes.BackColor = Color.Empty;
                     return;
                 }
              }
@@ -277,7 +267,6 @@ namespace ActGen
             }
 
 
-            //  debug only -> MessageBox.Show("sChars before running codes " + sChars);
             //
             //  See if we have any characters left after filtering. Else we catch exceptions...
             //
