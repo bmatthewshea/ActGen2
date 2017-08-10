@@ -39,13 +39,15 @@
             this.linkLabel_about_website = new System.Windows.Forms.LinkLabel();
             this.button_about_donate = new System.Windows.Forms.Button();
             this.button_about_close = new System.Windows.Forms.Button();
+            this.linkLabel_about_sourcecode = new System.Windows.Forms.LinkLabel();
+            this.label_about_sourcecode = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label_about_title
             // 
             this.label_about_title.AutoSize = true;
             this.label_about_title.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_about_title.Location = new System.Drawing.Point(94, 9);
+            this.label_about_title.Location = new System.Drawing.Point(114, 6);
             this.label_about_title.Name = "label_about_title";
             this.label_about_title.Size = new System.Drawing.Size(89, 25);
             this.label_about_title.TabIndex = 0;
@@ -54,27 +56,28 @@
             // label_about_detail1
             // 
             this.label_about_detail1.AutoSize = true;
-            this.label_about_detail1.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_about_detail1.Location = new System.Drawing.Point(11, 63);
+            this.label_about_detail1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_about_detail1.Location = new System.Drawing.Point(12, 89);
             this.label_about_detail1.Name = "label_about_detail1";
-            this.label_about_detail1.Size = new System.Drawing.Size(263, 39);
+            this.label_about_detail1.Size = new System.Drawing.Size(290, 15);
             this.label_about_detail1.TabIndex = 1;
-            this.label_about_detail1.Text = "An activation/password/serial code generator.\r\n\r\nUses RNGCryptoServiceProvider Cl" +
-    "ass for randomness.";
+            this.label_about_detail1.Text = " A strong password/activation/serial code generator.\r\n";
             // 
             // label_about_version
             // 
             this.label_about_version.AutoSize = true;
-            this.label_about_version.Location = new System.Drawing.Point(102, 33);
+            this.label_about_version.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_about_version.Location = new System.Drawing.Point(108, 31);
             this.label_about_version.Name = "label_about_version";
-            this.label_about_version.Size = new System.Drawing.Size(69, 13);
+            this.label_about_version.Size = new System.Drawing.Size(101, 16);
             this.label_about_version.TabIndex = 2;
-            this.label_about_version.Text = "Version: 1.02";
+            this.label_about_version.Text = "Version: 2.01.11";
             // 
             // label_about_detail2
             // 
             this.label_about_detail2.AutoSize = true;
-            this.label_about_detail2.Location = new System.Drawing.Point(11, 133);
+            this.label_about_detail2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_about_detail2.Location = new System.Drawing.Point(118, 52);
             this.label_about_detail2.Name = "label_about_detail2";
             this.label_about_detail2.Size = new System.Drawing.Size(80, 13);
             this.label_about_detail2.TabIndex = 3;
@@ -84,7 +87,7 @@
             // 
             this.label_about_contact.AutoSize = true;
             this.label_about_contact.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_about_contact.Location = new System.Drawing.Point(25, 151);
+            this.label_about_contact.Location = new System.Drawing.Point(32, 115);
             this.label_about_contact.Name = "label_about_contact";
             this.label_about_contact.Size = new System.Drawing.Size(51, 13);
             this.label_about_contact.TabIndex = 4;
@@ -94,7 +97,7 @@
             // 
             this.linkLabel_about_contact.AutoSize = true;
             this.linkLabel_about_contact.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-            this.linkLabel_about_contact.Location = new System.Drawing.Point(34, 164);
+            this.linkLabel_about_contact.Location = new System.Drawing.Point(45, 128);
             this.linkLabel_about_contact.Name = "linkLabel_about_contact";
             this.linkLabel_about_contact.Size = new System.Drawing.Size(109, 13);
             this.linkLabel_about_contact.TabIndex = 5;
@@ -106,7 +109,7 @@
             // 
             this.label_about_website.AutoSize = true;
             this.label_about_website.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_about_website.Location = new System.Drawing.Point(23, 181);
+            this.label_about_website.Location = new System.Drawing.Point(32, 146);
             this.label_about_website.Name = "label_about_website";
             this.label_about_website.Size = new System.Drawing.Size(53, 13);
             this.label_about_website.TabIndex = 6;
@@ -116,12 +119,12 @@
             // 
             this.linkLabel_about_website.AutoSize = true;
             this.linkLabel_about_website.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-            this.linkLabel_about_website.Location = new System.Drawing.Point(34, 194);
+            this.linkLabel_about_website.Location = new System.Drawing.Point(45, 160);
             this.linkLabel_about_website.Name = "linkLabel_about_website";
-            this.linkLabel_about_website.Size = new System.Drawing.Size(190, 13);
+            this.linkLabel_about_website.Size = new System.Drawing.Size(195, 13);
             this.linkLabel_about_website.TabIndex = 7;
             this.linkLabel_about_website.TabStop = true;
-            this.linkLabel_about_website.Text = "http://www.holylinux.net/code/actgen";
+            this.linkLabel_about_website.Text = "https://www.holylinux.net/code/actgen";
             this.linkLabel_about_website.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_about_website_LinkClicked);
             // 
             // button_about_donate
@@ -136,7 +139,7 @@
             // 
             // button_about_close
             // 
-            this.button_about_close.Location = new System.Drawing.Point(185, 225);
+            this.button_about_close.Location = new System.Drawing.Point(217, 225);
             this.button_about_close.Name = "button_about_close";
             this.button_about_close.Size = new System.Drawing.Size(87, 25);
             this.button_about_close.TabIndex = 9;
@@ -144,11 +147,34 @@
             this.button_about_close.UseVisualStyleBackColor = true;
             this.button_about_close.Click += new System.EventHandler(this.button_about_close_Click);
             // 
+            // linkLabel_about_sourcecode
+            // 
+            this.linkLabel_about_sourcecode.AutoSize = true;
+            this.linkLabel_about_sourcecode.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.linkLabel_about_sourcecode.Location = new System.Drawing.Point(45, 188);
+            this.linkLabel_about_sourcecode.Name = "linkLabel_about_sourcecode";
+            this.linkLabel_about_sourcecode.Size = new System.Drawing.Size(216, 13);
+            this.linkLabel_about_sourcecode.TabIndex = 11;
+            this.linkLabel_about_sourcecode.TabStop = true;
+            this.linkLabel_about_sourcecode.Text = "https://github.com/bmatthewshea/ActGen2";
+            // 
+            // label_about_sourcecode
+            // 
+            this.label_about_sourcecode.AutoSize = true;
+            this.label_about_sourcecode.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_about_sourcecode.Location = new System.Drawing.Point(32, 175);
+            this.label_about_sourcecode.Name = "label_about_sourcecode";
+            this.label_about_sourcecode.Size = new System.Drawing.Size(47, 13);
+            this.label_about_sourcecode.TabIndex = 10;
+            this.label_about_sourcecode.Text = "Source";
+            // 
             // ActGenAboutForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.ClientSize = new System.Drawing.Size(316, 262);
+            this.Controls.Add(this.linkLabel_about_sourcecode);
+            this.Controls.Add(this.label_about_sourcecode);
             this.Controls.Add(this.button_about_close);
             this.Controls.Add(this.button_about_donate);
             this.Controls.Add(this.linkLabel_about_website);
@@ -179,5 +205,7 @@
         private System.Windows.Forms.LinkLabel linkLabel_about_website;
         private System.Windows.Forms.Button button_about_donate;
         private System.Windows.Forms.Button button_about_close;
+        private System.Windows.Forms.LinkLabel linkLabel_about_sourcecode;
+        private System.Windows.Forms.Label label_about_sourcecode;
     }
 }

@@ -161,7 +161,7 @@ namespace ActGen
             this.checkBox_avoid_characters.Checked                 = Properties.Settings.Default.avoid_characters;
             this.textBox_remove_additional_custom_characters.Text  = Properties.Settings.Default.remove_additional_custom_characters;
             this.textBox_include_additional_custom_characters.Text = Properties.Settings.Default.include_additional_custom_characters;
-            //this.checkBox_save_on_exit.Checked                     = Properties.Settings.Default.save_on_exit;
+            this.checkBox_save_on_exit.Checked                     = false;
             this.checkBoxRNGCrypto.Checked                         = Properties.Settings.Default.rngcrypto;
         }
 

@@ -10,7 +10,7 @@ ActGen - A Password and Random Code Generator
 
 ## Installation
 
-    The EXE can be placed anywhere. %appdata%\ActGen\ is used for saved settings.
+    The EXE can be placed anywhere. %appdata%\ActGen\?\user.config is used for saved settings.
 	I have an installer built but is not part of this repo.
 
 ## Features

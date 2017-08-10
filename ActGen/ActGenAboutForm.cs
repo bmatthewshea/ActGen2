@@ -35,7 +35,7 @@ namespace ActGen
 
         private void linkLabel_about_website_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("http://www.holylinux.net/code/actgen");
+            System.Diagnostics.Process.Start("https://www.holylinux.net/code/actgen");
         }
     }
 }
