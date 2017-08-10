@@ -1,4 +1,6 @@
 
+[![Build status](https://ci.appveyor.com/api/projects/status/t4cs6sx7hbsh89kw?svg=true)](https://ci.appveyor.com/project/bmatthewshea/actgen2)
+
 ActGen - A Password and Random Code Generator 
 ==================
 
