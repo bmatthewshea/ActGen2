@@ -13,7 +13,7 @@ ActGen - Random Code Generator
 ## Installation
 
 - The EXE can be placed anywhere. Optionally, you can place it with the exe.config and your custom settings.
-- %appdata%\ActGen\?\user.config is only created if you "save settings on exit".
+- %appdata%\ActGen\user.config is only created if you "save settings on exit".
 
 	Website/Contact: http://www.holylinux.net/code/actgen/
 
