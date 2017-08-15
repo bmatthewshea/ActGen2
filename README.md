@@ -42,7 +42,7 @@ ActGen is released under the [GNU GPLv3](https://opensource.org/licenses/GPL-3.0
 
 <p><img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" width="175"></p>
 
-[appveyor-icon]: https://ci.appveyor.com/project/bmatthewshea/actgen2?branch=master&svg=true
+[appveyor-icon]: https://ci.appveyor.com/api/projects/status/t4cs6sx7hbsh89kw?svg=true
 
 [appveyor-link]: https://ci.appveyor.com/project/bmatthewshea/actgen2
 
