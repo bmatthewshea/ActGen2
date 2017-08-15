@@ -1,8 +1,10 @@
-
-[![Build status](https://ci.appveyor.com/api/projects/status/t4cs6sx7hbsh89kw?svg=true)](https://ci.appveyor.com/project/bmatthewshea/actgen2)
-
 ActGen - Random Code Generator 
 ==================
+
+[![Build status][appveyor-icon]][appveyor-link]
+[![Build Status][travis-icon]][travis-link]
+
+<!-- [![Slack Status][slack-icon]][slack-link] -->
 
   - [Installation](#installation)
   - [Features](#features)
@@ -39,3 +41,16 @@ ActGen is released under the [GNU GPLv3](https://opensource.org/licenses/GPL-3.0
 <p><img src="http://i.imgur.com/u1G0wvD.png" width="475"></p>
 
 <p><img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" width="175"></p>
+
+[appveyor-icon]: https://ci.appveyor.com/project/bmatthewshea/actgen2?branch=master&svg=true
+
+[appveyor-link]: https://ci.appveyor.com/project/bmatthewshea/actgen2
+
+[travis-icon]: https://travis-ci.org/bmatthewshea/ActGen2.svg?branch=master
+
+[travis-link]: https://travis-ci.org/bmatthewshea/ActGen2
+
+<!-- [slack-link]: https://scn-talk.slack.com -->
+
+<!-- [slack-icon]: https://scn-talk.slack.com/badge.svg -->
+
